@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:957023157136:android:80eaee06b13002fdad5115",
         "android_client_info": {
-          "package_name": "com.example.pagebook.pagebook"
+          "package_name": "com.example.pagebook"
         }
       },
       "oauth_client": [
@@ -17,7 +17,7 @@
           "client_id": "957023157136-prujenlphngumnft493e055c9qg6oo5a.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.pagebook.pagebook",
+            "package_name": "com.example.pagebook",
             "certificate_hash": "bb6ccfa463ece4d977a567d5ee6bcac4bc06c895"
           }
         },

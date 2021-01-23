@@ -38,10 +38,7 @@
                 android:layout_alignTop="@+id/iv_pagebook_post_image"
                 android:layout_marginRight="@dimen/intrinsic_padding"
                 android:layout_marginTop="@dimen/post_list_item_author_image_margin"
-                app:border="false"
-                app:shadow="true"
-                app:shadow_radius="@dimen/circle_image_shadow_radius"
-                app:shadow_color="@color/circle_image_shadow" />
+                 />
 
             <TextView
                 android:id="@+id/tv_pagebook_post_title"

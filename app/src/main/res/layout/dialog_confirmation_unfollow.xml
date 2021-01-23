@@ -26,12 +26,10 @@
     android:padding="24dp"
     android:gravity="center_horizontal">
 
-    <com.rozdoum.pagebook.views.CircularImageView
+    <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/imageView"
         android:layout_width="@dimen/profile_screen_avatar_size"
         android:layout_height="@dimen/profile_screen_avatar_size"
-        app:border="false"
-        app:shadow="false"
         android:layout_marginBottom="24dp"
         tools:src="@drawable/ic_stub"
         tools:targetApi="lollipop"/>
@@ -40,7 +38,6 @@
         android:id="@+id/confirmationMessageTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="@style/TextAppearance.Title"
         tools:text="Unfollow John Smith?"/>
 
 </LinearLayout>

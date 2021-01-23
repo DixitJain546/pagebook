@@ -1,8 +1,10 @@
-package com.example.pagebook;
+package com.example.pagebook.pagebook;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.pagebook.R;
 
 public class MainActivity extends AppCompatActivity {
 

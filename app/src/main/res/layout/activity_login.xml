@@ -2,8 +2,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.rozdoum.pagebook.main.login.LoginActivity">
+    android:layout_height="match_parent">
 
     <ImageView
         android:layout_width="match_parent"
@@ -25,7 +24,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="@dimen/login_screen_title_margin"
             android:text="@string/app_name"
-            style="@style/TextAppearance.MainTitle" />
+             />
 
         <RelativeLayout
             android:id="@+id/facebookSignInButton"
@@ -33,7 +32,6 @@
             android:layout_height="@dimen/base_login_button_height"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="@dimen/login_screen_button_margin"
-            android:background="@drawable/facebook_button_bg"
             android:elevation="4dp">
 
             <ImageView
@@ -43,14 +41,14 @@
                 android:layout_centerVertical="true"
                 android:paddingLeft="@dimen/large_intrinsic_padding"
                 android:paddingRight="@dimen/large_intrinsic_padding"
-                app:srcCompat="@drawable/ic_bt_login_facebook" />
+            />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:text="@string/button_login_with_facebook"
-                android:textColor="@drawable/login_button_text_selector" />
+               />
 
         </RelativeLayout>
 
@@ -60,7 +58,7 @@
             android:layout_height="@dimen/base_login_button_height"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="@dimen/login_screen_button_margin"
-            android:background="@drawable/google_button_bg"
+
             android:elevation="4dp">
 
             <ImageView
@@ -70,14 +68,14 @@
                 android:layout_centerVertical="true"
                 android:paddingLeft="@dimen/large_intrinsic_padding"
                 android:paddingRight="@dimen/large_intrinsic_padding"
-                app:srcCompat="@drawable/ic_bt_login_google" />
+              />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
                 android:text="@string/button_login_with_google"
-                android:textColor="@drawable/login_button_text_selector" />
+                />
 
         </RelativeLayout>
     </LinearLayout>
