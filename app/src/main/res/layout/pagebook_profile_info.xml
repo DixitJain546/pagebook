@@ -1,0 +1,132 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cl_pagebook_profile"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/intrinsic_padding"
+    android:paddingRight="@dimen/intrinsic_padding"
+    android:paddingTop="@dimen/intrinsic_padding">
+
+    <TextView
+        android:id="@+id/tv_pagebook_profile_following_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:padding="@dimen/small_intrinsic_padding"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tv_pagebook_profile_likes_count"
+        app:layout_constraintStart_toStartOf="@+id/tv_pagebook_profile_likes_count"
+        app:layout_constraintTop_toBottomOf="@+id/tv_pagebook_profile_likes_count"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="25 \nfollowings"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tv_pagebook_profile_likes_count"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="8dp"
+        android:gravity="center"
+        android:padding="@dimen/small_intrinsic_padding"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_pagebook_profile_posts_count"
+        app:layout_constraintTop_toTopOf="@+id/tv_pagebook_profile_posts_count"
+        tools:text="25 \n likes"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tv_pagebook_profile_follower_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:padding="@dimen/small_intrinsic_padding"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/tv_pagebook_profile_posts_count"
+        app:layout_constraintStart_toStartOf="@+id/tv_pagebook_profile_posts_count"
+        app:layout_constraintTop_toBottomOf="@+id/tv_pagebook_profile_posts_count"
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="25 \n followers"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tv_pagebook_profile_posts_count"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:padding="@dimen/small_intrinsic_padding"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@+id/tv_pagebook_profile_likes_count"
+        app:layout_constraintStart_toEndOf="@+id/imageContainer"
+        app:layout_constraintTop_toBottomOf="@+id/tv_pagebook_profile_name"
+        tools:text="25 \n posts"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/btn_pagebook_profile_follow_back"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageContainer"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_chainStyle="spread_inside"
+        tools:text="Follow back"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_pagebook_profile_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:gravity="center_horizontal"
+        android:padding="0dp"
+        android:paddingTop="@dimen/intrinsic_padding"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageContainer"
+        app:layout_constraintTop_toTopOf="@+id/imageContainer"
+        tools:text="John Smith" />
+
+    <RelativeLayout
+        android:id="@+id/imageContainer"
+        android:layout_width="@dimen/profile_screen_avatar_size"
+        android:layout_height="@dimen/profile_screen_avatar_size"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ProgressBar
+            android:id="@+id/pb_pagebook_user_progress"
+            android:layout_width="@dimen/progress_bar_size"
+            android:layout_height="@dimen/progress_bar_size"
+            android:layout_centerInParent="true"
+            android:visibility="visible" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_pagebook_edit_profile_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:transitionName="@string/post_author_image_transition_name"
+            app:border="false"
+            app:shadow="false"
+            tools:src="@drawable/ic_stub"
+            tools:targetApi="lollipop" />
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
