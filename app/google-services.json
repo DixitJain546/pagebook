@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "957023157136",
+    "project_id": "pagebook-716f3",
+    "storage_bucket": "pagebook-716f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:957023157136:android:80eaee06b13002fdad5115",
+        "android_client_info": {
+          "package_name": "com.example.pagebook.pagebook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "957023157136-prujenlphngumnft493e055c9qg6oo5a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pagebook.pagebook",
+            "certificate_hash": "bb6ccfa463ece4d977a567d5ee6bcac4bc06c895"
+          }
+        },
+        {
+          "client_id": "957023157136-qlha1pcqcf9tf0an3gaqupmag1jvdnlq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdm3fG4csc8QqpOhyksWFPasDfCIjQ5X4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "957023157136-qlha1pcqcf9tf0an3gaqupmag1jvdnlq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
