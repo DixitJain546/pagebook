@@ -7,22 +7,24 @@
 
     <LinearLayout
         android:id="@+id/likesContainer"
-        android:layout_width="@dimen/post_counters_item_width"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
         android:paddingTop="@dimen/intrinsic_padding"
         android:paddingBottom="@dimen/intrinsic_padding"
+        android:layout_marginEnd="8dp"
         android:gravity="center_vertical"
         android:orientation="horizontal">
 
         <ImageView
             android:id="@+id/iv_pagebook_like"
             app:srcCompat="@drawable/like"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
 
         <TextView
             android:id="@+id/tv_pagebook_count_like"
             android:layout_width="wrap_content"
+            android:text="100"
             android:layout_height="wrap_content"
             android:paddingLeft="@dimen/small_intrinsic_padding"
             />
@@ -31,22 +33,24 @@
 
     <LinearLayout
         android:id="@+id/heartsContainer"
-        android:layout_width="@dimen/post_counters_item_width"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
         android:paddingTop="@dimen/intrinsic_padding"
         android:paddingBottom="@dimen/intrinsic_padding"
+        android:layout_marginEnd="8dp"
         android:gravity="center_vertical"
         android:orientation="horizontal">
 
         <ImageView
             android:id="@+id/iv_pagebook_heart"
             app:srcCompat="@drawable/heart"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
 
         <TextView
             android:id="@+id/tv_pagebook_count_heart"
             android:layout_width="wrap_content"
+            android:text="100"
             android:layout_height="wrap_content"
             android:paddingLeft="@dimen/small_intrinsic_padding"
              />
@@ -55,22 +59,24 @@
 
     <LinearLayout
         android:id="@+id/dislikesContainer"
-        android:layout_width="@dimen/post_counters_item_width"
-        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
         android:paddingTop="@dimen/intrinsic_padding"
         android:paddingBottom="@dimen/intrinsic_padding"
+        android:layout_marginEnd="8dp"
         android:gravity="center_vertical"
         android:orientation="horizontal">
 
         <ImageView
             android:id="@+id/iv_pagebook_dislike"
             app:srcCompat="@drawable/dislike"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
 
         <TextView
             android:id="@+id/tv_pagebook_count_dislike"
             android:layout_width="wrap_content"
+            android:text="100"
             android:layout_height="wrap_content"
             android:paddingLeft="@dimen/small_intrinsic_padding"
              />
@@ -80,23 +86,25 @@
     <LinearLayout
         android:id="@+id/angryContainer"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="50dp"
         android:paddingTop="@dimen/intrinsic_padding"
         android:paddingBottom="@dimen/intrinsic_padding"
         android:paddingRight="@dimen/intrinsic_padding"
+        android:layout_marginEnd="8dp"
         android:gravity="center_vertical"
         android:orientation="horizontal">
 
         <ImageView
             android:id="@+id/iv_pagebook_angry"
             app:srcCompat="@drawable/angry"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
 
         <TextView
             android:id="@+id/tv_pagebook_count_angry"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="100"
             android:paddingLeft="@dimen/small_intrinsic_padding"
             />
 

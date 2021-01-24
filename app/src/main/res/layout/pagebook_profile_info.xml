@@ -110,20 +110,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
-        <ProgressBar
-            android:id="@+id/pb_pagebook_user_progress"
-            android:layout_width="@dimen/progress_bar_size"
-            android:layout_height="@dimen/progress_bar_size"
-            android:layout_centerInParent="true"
-            android:visibility="visible" />
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/iv_pagebook_edit_profile_image"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:transitionName="@string/post_author_image_transition_name"
-            app:border="false"
-            app:shadow="false"
             tools:src="@drawable/ic_stub"
             tools:targetApi="lollipop" />
 
